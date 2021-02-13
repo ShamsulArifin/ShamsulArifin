@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @ShamsulArifin
+- 👋 Hi, I’m Shamsul Arifin
 - 👀 I’m interested in Game Development and Machine Learning
 - 🌱 I’m currently learning C# and Deep Learning
 - 📫 How to reach me arifinbd6@gmail.com , arifin@ctechbd.com

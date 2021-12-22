@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Shamsul Arifin. 
-  :: Professional Game Developer .. Graphic Designer ::
+- :: Professional Game Developer .. Graphic Designer ::
 - 👀 I’m interested in Game Development and Machine Learning
 - 🌱 I’m currently learning C++, JavaScript and Deep Learning
 - 📫 How to reach me arifinbd6@gmail.com 

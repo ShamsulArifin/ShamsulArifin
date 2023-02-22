@@ -1,8 +1,12 @@
+![Profile Views](https://komarev.com/ghpvc/?username=ShamsulArifin&color=blue)
+
 - 👋 Hi, I’m Shamsul Arifin. 
 - :: Professional Game Developer .. Graphic Designer ::
 - 👀 I’m interested in Game Development and Machine Learning
 - 🌱 I’m currently learning C++, JavaScript and Deep Learning
 - 📫 How to reach me arifinbd6@gmail.com 
+
+![Snake animation](https://github.com/ShamsulArifin/ShamsulArifin/blob/output/github-contribution-grid-snake.svg)
 
 <!---
 ShamsulArifin/ShamsulArifin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

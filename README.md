@@ -9,8 +9,8 @@ ShamsulArifin/ShamsulArifin is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ShamsulArifin&theme=github_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ShamsulArifin&theme=2077)
 	<div>
-		![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ShamsulArifin&theme=github_dark)
-		![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ShamsulArifin&theme=github_dark)
+		![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ShamsulArifin&theme=2077)
+		![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ShamsulArifin&theme=2077)
 	</div>

@@ -13,4 +13,5 @@ You can click the Preview link to take a look at your changes.
 	<div>
 		![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ShamsulArifin&theme=2077)
 		![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ShamsulArifin&theme=2077)
+		![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ShamsulArifin&theme=2077)
 	</div>

@@ -119,7 +119,7 @@ def main():
 
     t.set_font(FONT_FILE_MONA, 16, 0)
     t.toggle_show_cursor(False)
-    monaLines = r"""
+    # monaLines = r"""
     # \x1b[49m     \x1b[90;100m}}\x1b[49m     \x1b[90;100m}}\x1b[0m
     # \x1b[49m    \x1b[90;100m}}}}\x1b[49m   \x1b[90;100m}}}}\x1b[0m
     # \x1b[49m    \x1b[90;100m}}}}}\x1b[49m \x1b[90;100m}}}}}\x1b[0m
@@ -142,8 +142,8 @@ def main():
     # \x1b[49m     \x1b[90;100m}}\x1b[49m \x1b[90;100m}}}}}}\x1b[49m \x1b[90;100m}}\x1b[0m
     # \x1b[49m        \x1b[90;100m}}}}}}}\x1b[0m
     # \x1b[49m         \x1b[90;100m}}}\x1b[49m \x1b[90;100m}}\x1b[0m
-    """
-    t.gen_text(monaLines, 10)
+    # """
+    # t.gen_text(monaLines, 10)
 
     t.set_font(FONT_FILE_BITMAP)
     t.toggle_show_cursor(True)

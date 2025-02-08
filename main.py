@@ -15,9 +15,9 @@ def main():
 
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
-    year_now = datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y")
+    year_now = datetime.now(ZoneInfo("Asia/Dhaka")).strftime("%Y")
     t.gen_text("GIF_OS Modular BIOS v1.0.11", 1)
-    t.gen_text(f"Copyright (C) {year_now}, \x1b[31mX0rzAvi Softwares Inc.\x1b[0m", 2)
+    t.gen_text(f"Copyright (C) {year_now}, \x1b[31mShamsul Arifin.\x1b[0m", 2)
     t.gen_text("\x1b[94mGitHub Profile ReadMe Terminal, Rev 1011\x1b[0m", 4)
     t.gen_text("Krypton(tm) GIFCPU - 250Hz", 6)
     t.gen_text(

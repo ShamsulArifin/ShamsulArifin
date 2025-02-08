@@ -84,7 +84,7 @@ def main():
     t.clear_frame()
     top_languages = [lang[0] for lang in git_user_details.languages_sorted]
     user_details_lines = f"""
-    \x1b[30;ShamsulArifin@GitHub\x1b[0m
+    \x1b[ShamsulArifin@GitHub\x1b[0m
     --------------
     \x1b[96mOS:     \x1b[93mWindows 11, IOS 18.3, Android 13\x1b[0m
     \x1b[96mHost:   \x1b[93mComputer Science & Engineering \x1b[94m#CSE\x1b[0m
@@ -115,33 +115,33 @@ def main():
     t.gen_typing_text("\x1b[91mfetch.s", 1, contin=True)
     t.delete_row(1, prompt_col)
     t.gen_text("\x1b[92mfetch.sh\x1b[0m", 1, contin=True)
-    t.gen_typing_text(" -u S. Arifin", 1, contin=True)
+    t.gen_typing_text(" -u ShamsulArifin", 1, contin=True)
 
     t.set_font(FONT_FILE_MONA, 16, 0)
     t.toggle_show_cursor(False)
     monaLines = r"""
-    \x1b[49m     \x1b[90;100m}}\x1b[49m     \x1b[90;100m}}\x1b[0m
-    \x1b[49m    \x1b[90;100m}}}}\x1b[49m   \x1b[90;100m}}}}\x1b[0m
-    \x1b[49m    \x1b[90;100m}}}}}\x1b[49m \x1b[90;100m}}}}}\x1b[0m
-    \x1b[49m   \x1b[90;100m}}}}}}}}}}}}}\x1b[0m
-    \x1b[49m   \x1b[90;100m}}}}}}}}}}}}}}\x1b[0m
-    \x1b[49m   \x1b[90;100m}}\x1b[37;47m}}}}}}}\x1b[90;100m}}}}}\x1b[0m
-    \x1b[49m  \x1b[90;100m}}\x1b[37;47m}}}}}}}}}}\x1b[90;100m}}}\x1b[0m
-    \x1b[49m  \x1b[90;100m}}\x1b[37;47m}\x1b[90;100m}\x1b[37;47m}}}}}\x1b[90;100m}\x1b[37;47m}}\x1b[90;100m}}}}\x1b[0m
-    \x1b[49m  \x1b[90;100m}\x1b[37;47m}}\x1b[90;100m}\x1b[37;47m}}}}}\x1b[90;100m}\x1b[37;47m}}}\x1b[90;100m}}}\x1b[0m
-    \x1b[90;100m}}}\x1b[37;47m}}}}\x1b[90;100m}}}\x1b[37;47m}}}}}\x1b[90;100m}}}}\x1b[0m
-    \x1b[49m  \x1b[90;100m}\x1b[37;47m}}}}}\x1b[90;100m}}\x1b[37;47m}}}}}\x1b[90;100m}}}\x1b[0m
-    \x1b[49m \x1b[90;100m}}\x1b[37;47m}}}}}}}}}}}}\x1b[90;100m}}}\x1b[0m
-    \x1b[90;100m}\x1b[49m  \x1b[90;100m}}\x1b[37;47m}}}}}}}}\x1b[90;100m}}}\x1b[49m  \x1b[90;100m}\x1b[0m
-    \x1b[49m        \x1b[90;100m}}}}}\x1b[0m
-    \x1b[49m       \x1b[90;100m}}}}}}}\x1b[0m
-    \x1b[49m       \x1b[90;100m}}}}}}}}\x1b[0m
-    \x1b[49m      \x1b[90;100m}}}}}}}}}}\x1b[0m
-    \x1b[49m     \x1b[90;100m}}}}}}}}}}}\x1b[0m
-    \x1b[49m     \x1b[90;100m}}}}}}}}}}}}\x1b[0m
-    \x1b[49m     \x1b[90;100m}}\x1b[49m \x1b[90;100m}}}}}}\x1b[49m \x1b[90;100m}}\x1b[0m
-    \x1b[49m        \x1b[90;100m}}}}}}}\x1b[0m
-    \x1b[49m         \x1b[90;100m}}}\x1b[49m \x1b[90;100m}}\x1b[0m
+    # \x1b[49m     \x1b[90;100m}}\x1b[49m     \x1b[90;100m}}\x1b[0m
+    # \x1b[49m    \x1b[90;100m}}}}\x1b[49m   \x1b[90;100m}}}}\x1b[0m
+    # \x1b[49m    \x1b[90;100m}}}}}\x1b[49m \x1b[90;100m}}}}}\x1b[0m
+    # \x1b[49m   \x1b[90;100m}}}}}}}}}}}}}\x1b[0m
+    # \x1b[49m   \x1b[90;100m}}}}}}}}}}}}}}\x1b[0m
+    # \x1b[49m   \x1b[90;100m}}\x1b[37;47m}}}}}}}\x1b[90;100m}}}}}\x1b[0m
+    # \x1b[49m  \x1b[90;100m}}\x1b[37;47m}}}}}}}}}}\x1b[90;100m}}}\x1b[0m
+    # \x1b[49m  \x1b[90;100m}}\x1b[37;47m}\x1b[90;100m}\x1b[37;47m}}}}}\x1b[90;100m}\x1b[37;47m}}\x1b[90;100m}}}}\x1b[0m
+    # \x1b[49m  \x1b[90;100m}\x1b[37;47m}}\x1b[90;100m}\x1b[37;47m}}}}}\x1b[90;100m}\x1b[37;47m}}}\x1b[90;100m}}}\x1b[0m
+    # \x1b[90;100m}}}\x1b[37;47m}}}}\x1b[90;100m}}}\x1b[37;47m}}}}}\x1b[90;100m}}}}\x1b[0m
+    # \x1b[49m  \x1b[90;100m}\x1b[37;47m}}}}}\x1b[90;100m}}\x1b[37;47m}}}}}\x1b[90;100m}}}\x1b[0m
+    # \x1b[49m \x1b[90;100m}}\x1b[37;47m}}}}}}}}}}}}\x1b[90;100m}}}\x1b[0m
+    # \x1b[90;100m}\x1b[49m  \x1b[90;100m}}\x1b[37;47m}}}}}}}}\x1b[90;100m}}}\x1b[49m  \x1b[90;100m}\x1b[0m
+    # \x1b[49m        \x1b[90;100m}}}}}\x1b[0m
+    # \x1b[49m       \x1b[90;100m}}}}}}}\x1b[0m
+    # \x1b[49m       \x1b[90;100m}}}}}}}}\x1b[0m
+    # \x1b[49m      \x1b[90;100m}}}}}}}}}}\x1b[0m
+    # \x1b[49m     \x1b[90;100m}}}}}}}}}}}\x1b[0m
+    # \x1b[49m     \x1b[90;100m}}}}}}}}}}}}\x1b[0m
+    # \x1b[49m     \x1b[90;100m}}\x1b[49m \x1b[90;100m}}}}}}\x1b[49m \x1b[90;100m}}\x1b[0m
+    # \x1b[49m        \x1b[90;100m}}}}}}}\x1b[0m
+    # \x1b[49m         \x1b[90;100m}}}\x1b[49m \x1b[90;100m}}\x1b[0m
     """
     t.gen_text(monaLines, 10)
 

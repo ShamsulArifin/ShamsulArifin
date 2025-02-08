@@ -87,8 +87,8 @@ def main():
     \x1b[ShamsulArifin@GitHub\x1b[0m
     --------------
     \x1b[96mOS:     \x1b[93mWindows 11, IOS 18.3, Android 13\x1b[0m
-    \x1b[96mHost:   \x1b[93mComputer Science & Engineering \x1b[94m#CSE\x1b[0m
-    \x1b[96mKernel: \x1b[93mTech Lead at Vinacts. CO \x1b[94m#CSE\x1b[0m
+    \x1b[96mHost:   \x1b[93mBSC. In Computer Science & Engineering \x1b[94m#CSE\x1b[0m
+    \x1b[96mKernel: \x1b[93mTech Lead at Vinacts. CO \x1b[94m#GameDev VR\x1b[0m
     \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
     \x1b[96mIDE:    \x1b[93mRider, VSCode, Pycharm\x1b[0m
     
@@ -106,7 +106,7 @@ def main():
     \x1b[96mTotal PRs: \x1b[93m{git_user_details.total_pull_requests_made}\x1b[0m
     \x1b[96mMerged PR %: \x1b[93m{git_user_details.pull_requests_merge_percentage}\x1b[0m
     \x1b[96mTotal Contrib: \x1b[93m{git_user_details.total_repo_contributions}\x1b[0m
-    \x1b[96mTop Lang: \x1b[93m{', '.join(top_languages[:5])}\x1b[0m
+    \x1b[96mTop Lang: \x1b[93m{', '.join(top_languages[:7])}\x1b[0m
     """
     t.gen_prompt(1)
     prompt_col = t.curr_col
@@ -148,7 +148,7 @@ def main():
     t.set_font(FONT_FILE_BITMAP)
     t.toggle_show_cursor(True)
     # t.pasteImage("./temp/x0rzavi.jpg", 3, 5, sizeMulti=0.5)
-    t.gen_text(user_details_lines, 2, 35, count=5, contin=True)
+    t.gen_text(user_details_lines, 2, 1, count=5, contin=True)
     t.gen_prompt(t.curr_row)
     t.gen_typing_text(
         "\x1b[92m# Have a nice day kind stranger :D Thanks for stopping by!",
